@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "sc:block/saliter_ore",
+    "up": "sc:block/saliter_ore",
+    "north": "sc:block/saliter_ore",
+    "east": "sc:block/saliter_ore",
+    "south": "sc:block/saliter_ore",
+    "west": "sc:block/saliter_ore",
+    "particle": "sc:block/saliter_ore"
+  },
+  "render_type": "solid"
+}

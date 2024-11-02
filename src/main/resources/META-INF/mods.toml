@@ -1,0 +1,35 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT License"
+
+[[mods]]
+modId="sc"
+version="1.0.3"
+displayName="SaliterCraft"
+displayURL="https://modrinth.com/user/Flaxor"
+logoFile="logo.png"
+credits="Flaxor"
+authors="Flaxor"
+description="A mod that adds new stuff, and integrates with create!"
+
+# Start of user code block mod configuration
+# End of user code block mod configuration
+
+[[dependencies.sc]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1]"
+    ordering="AFTER"
+    side="BOTH"
+
+[[dependencies.sc]]
+    modId="create"
+    mandatory=true
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
+
+
+
+# Start of user code block dependencies configuration
+# End of user code block dependencies configuration

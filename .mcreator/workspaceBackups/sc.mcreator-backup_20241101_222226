@@ -1,0 +1,218 @@
+{
+  "mod_elements": [
+    {
+      "name": "PicktestBlockDestroyedWithTool",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "picktest_block_destroyed_with_tool",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sc/procedures/PicktestBlockDestroyedWithToolProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Backpackgui",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "backpackgui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sc/client/gui/BackpackguiScreen.java",
+          "src/main/java/net/mcreator/sc/world/inventory/BackpackguiMenu.java"
+        ]
+      }
+    },
+    {
+      "name": "Bigkaxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bigkaxe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/sc/models/item/bigkaxe.json",
+          "src/main/java/net/mcreator/sc/item/BigkaxeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Backpack",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "backpack",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sc/item/BackpackItem.java",
+          "src/main/java/net/mcreator/sc/item/inventory/BackpackInventoryCapability.java",
+          "src/main/resources/assets/sc/models/item/backpack.json"
+        ]
+      }
+    },
+    {
+      "name": "SaliterOre",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "saliter_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sc/forge/biome_modifier/saliter_ore_biome_modifier.json",
+          "src/main/resources/data/sc/worldgen/placed_feature/saliter_ore.json",
+          "src/main/resources/assets/sc/models/block/saliter_ore.json",
+          "src/main/resources/data/sc/loot_tables/blocks/saliter_ore.json",
+          "src/main/resources/assets/sc/blockstates/saliter_ore.json",
+          "src/main/resources/assets/sc/models/item/saliter_ore.json",
+          "src/main/java/net/mcreator/sc/block/SaliterOreBlock.java",
+          "src/main/resources/data/sc/worldgen/configured_feature/saliter_ore.json"
+        ]
+      }
+    },
+    {
+      "name": "Saliter",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "saliter",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sc/item/SaliterItem.java",
+          "src/main/resources/assets/sc/models/item/saliter.json"
+        ]
+      }
+    },
+    {
+      "name": "BigkaxeHead",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bigkaxe_head",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sc/item/BigkaxeHeadItem.java",
+          "src/main/resources/assets/sc/models/item/bigkaxe_head.json"
+        ]
+      }
+    },
+    {
+      "name": "SaliterBar",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "saliter_bar",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/sc/models/item/saliter_bar.json",
+          "src/main/java/net/mcreator/sc/item/SaliterBarItem.java"
+        ]
+      }
+    },
+    {
+      "name": "SaliterMechanism",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "saliter_mechanism",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sc/item/SaliterMechanismItem.java",
+          "src/main/resources/assets/sc/models/item/saliter_mechanism.json"
+        ]
+      }
+    },
+    {
+      "name": "SaliterCompound",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "saliter_compound",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sc/item/SaliterCompoundItem.java",
+          "src/main/resources/assets/sc/models/item/saliter_compound.json"
+        ]
+      }
+    },
+    {
+      "name": "SaliterSheet",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "saliter_sheet",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/sc/models/item/saliter_sheet.json",
+          "src/main/java/net/mcreator/sc/item/SaliterSheetItem.java"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {
+    "ITEMS:minecraft:pickaxes": [
+      "~CUSTOM:Bigkaxe"
+    ]
+  },
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "gui.sc.backpackgui.tooltip_you_can_put_things_in_the_backpa": "You can put things in the backpack",
+      "item.sc.bigkaxe": "Bigkaxe",
+      "block.sc.saliter_ore": "Saliter Ore",
+      "item.sc.saliter_mechanism": "Saliter Mechanism",
+      "item.sc.saliter_sheet": "Saliter Sheet",
+      "item.sc.saliter_compound": "Saliter Compound",
+      "item.sc.saliter": "Saliter",
+      "item.sc.bigkaxe_head": "Bigkaxe Head",
+      "item.sc.saliter_bar": "Saliter Bar",
+      "item.sc.backpack": "Backpack"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "sc",
+    "modName": "SaliterCraft",
+    "version": "1.0.0",
+    "author": "Fedya, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Not specified",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.20.1",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.sc"
+  },
+  "mcreatorVersion": 202400340615
+}

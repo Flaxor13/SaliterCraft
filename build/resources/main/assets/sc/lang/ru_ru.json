@@ -1,0 +1,17 @@
+{
+  "item.sc.unfinished_saliter_mechanism": "Незавершённый салитеровый механизм",
+  "item.sc.bigkaxe": "Больше-кирка",
+  "item.sc.saliter_sheet": "Салитеровый лист",
+  "item_group.sc.saliter_tab": "Saliter",
+  "item.sc.saliter_bar": "Салитеровый стержень",
+  "gui.sc.backpackgui.tooltip_you_can_put_things_in_the_backpa": "В рюкзак можно ложить вещи",
+  "block.sc.saliter_fluid": "Жидкий салитер",
+  "block.sc.saliter_ore": "Руда Салитера",
+  "item.sc.saliter_mechanism": "Салитеровый механизм",
+  "item.sc.saliter_compound": "Салитеровый сплав",
+  "item.sc.saliter": "Салитер",
+  "item.sc.bigkaxe_head": "Обух больше-кирки",
+  "item.sc.backpack": "Рюкзак",
+  "fluid.sc.saliter_fluid": "Жидкий салитер",
+  "item.sc.saliter_fluid_bucket": "Ведро жидкого салитера"
+}

@@ -1,0 +1,17 @@
+{
+  "item.sc.unfinished_saliter_mechanism": "Unfinished Saliter Mechanism",
+  "item.sc.bigkaxe": "Bigkaxe",
+  "item.sc.saliter_sheet": "Saliter Sheet",
+  "item_group.sc.saliter_tab": "Saliter",
+  "item.sc.saliter_bar": "Saliter Bar",
+  "gui.sc.backpackgui.tooltip_you_can_put_things_in_the_backpa": "You can put things in the backpack",
+  "block.sc.saliter_fluid": "Saliter Fluid",
+  "block.sc.saliter_ore": "Saliter Ore",
+  "item.sc.saliter_mechanism": "Saliter Mechanism",
+  "item.sc.saliter_compound": "Saliter Compound",
+  "item.sc.saliter": "Saliter",
+  "item.sc.bigkaxe_head": "Bigkaxe Head",
+  "item.sc.backpack": "Backpack",
+  "fluid.sc.saliter_fluid": "Saliter Fluid",
+  "item.sc.saliter_fluid_bucket": "Saliter Fluid Bucket"
+}
